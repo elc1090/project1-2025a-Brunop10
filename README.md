@@ -16,10 +16,10 @@ Acesso: Substitua este texto pela URL para acesso ao site publicado
 
 
 #### Desenvolvedor(a)
-Substitua este texto pela sua identificação: nome e curso
+Bruno Perussatto - Ciência da Computação
 
 #### Cliente
-Substitua este texto pela identificação do cliente
+Leonardo Garcia Balk
 
 
 
@@ -27,13 +27,14 @@ Substitua este texto pela identificação do cliente
 #### Site/app original
 
 ##### Link
-Substitua este texto pela URL do site/app escolhido
+(https://www.lojadointer.com.br/)
 
 ##### Descrição
 Substitua este texto por uma descrição do site/app escolhido. Inclua observações sobre seu conteúdo, aparência e código.
 
 #### Demanda do(a) cliente
-Substitua este texto pela demanda do(a) cliente
+- Melhorar o visual que para o cliente está muito bagunçado e cheio de informações.
+- Fazer um design mais organizado e moderno.
 
 #### Desenvolvimento
 

@@ -43,24 +43,26 @@ Substitua este texto por uma descrição do processo de desenvolvimento, explica
 
 #### Tecnologias
 
-Substitua este trecho por uma lista detalhada de tecnologias usadas (tanto as básicas, como HTML e CSS, como as mais específicas, por exemplo Tailwind, etc.):
-- ...
-- ...
-- 
+- HTML
+- CSS
 
 #### Ambiente de desenvolvimento
 
-Substitua este trecho por uma lista detalhada dos ambientes/ferramentas de desenvolvimento que você usou (por exemplo, VS Code + alguma extensão, etc.)
-- ...
-- ...
+- VSCode
+- GitHub Copilot
+- Live Server
 
 #### Referências e créditos
 
-Substitua este trecho por uma lista bem detalhada de todo material que você consultou para ajudar no projeto, por exemplo:  URL de templates usados, URL de icon kits usados, créditos para colegas que colaboraram, geradores de código (incluindo alguns prompts usados para o ChatGPT, se for o caso)
-- ...
-- ...
+​Durante o desenvolvimento do projeto, utilizei as seguintes ferramentas e recursos:​
 
+ChatGPT: Utilizei o ChatGPT como assistente de programação para obter sugestões de código, esclarecer dúvidas e aprimorar funcionalidades específicas do projeto.​
 
+Loja do Inter: Consultei o site oficial da Loja do Inter para obter referências de design, estrutura de navegação e apresentação de produtos, visando alinhar o projeto com a identidade visual da loja. 
+​(https://www.lojadointer.com.br/)
+
+Font Awesome: Para os ícones utilizados no header, como os de usuário e carrinho de compras, utilizei a biblioteca Font Awesome.
+(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css)
 
 
 ---

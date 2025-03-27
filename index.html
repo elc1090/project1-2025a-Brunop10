@@ -12,108 +12,319 @@
         <div class="logo">MENOR DO SUL STORE</div>
         <div class="logo-inter"></div>
         <div class="search-bar">
-            <input type="text" placeholder="O que você está procurando?">
+            <input type="text" placeholder="O que você busca?">
+            <button class="search-button">
+            <i class="fas fa-search"></i>
+            </button>
         </div>
         <div class="header-icons">
-            <i class="fas fa-user"></i>
-            <i class="fas fa-shopping-cart"></i>
-        </div>
+            <ul class="icon-menu">
+                <li class="icon-item">
+                    <i class="fas fa-user"></i>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Perfil</a></li>
+                        <li><a href="#">Configurações</a></li>
+                        <li><a href="#">Sair</a></li>
+                    </ul>
+                </li>
+                <li class="icon-item">
+                    <i class="fas fa-shopping-cart"></i>
+                </li>
+            </ul>
+        </div>     
     </header>
-
     <nav class="nav-menu">
         <ul>
-            <li>Novidades</li>
-            <li>Feminino</li>
-            <li>Masculino</li>
-            <li>Infantil</li>
-            <li>Esportes</li>
-            <li>Outlet</li>
+            <li class="menu-item">
+                <a href="#">Novidades</a>
+                <ul class="submenu">
+                    <li><a href="#">Linha de chuteiras Adidas</a></li>
+                    <li><a href="#">Camisas 24/25</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#">Feminino</a>
+                <ul class="submenu">
+                    <li><a href="#">Roupas esportivas</a></li>
+                    <li><a href="#">Calçados</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#">Masculino</a>
+                <ul class="submenu">
+                    <li><a href="#">Roupas esportivas</a></li>
+                    <li><a href="#">Calçados</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#">Infantil</a>
+                <ul class="submenu">
+                    <li><a href="#">Roupas</a></li>
+                    <li><a href="#">Calçados</a></li>
+                    <li><a href="#">Brinquedos esportivos</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#">Chuteiras</a>
+                <ul class="submenu">
+                    <li><a href="#">Futebol</a></li>
+                    <li><a href="#">Futsal</a></li>
+                    <li><a href="#">Society</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#">Outlet</a>
+                <ul class="submenu">
+                    <li><a href="#">Descontos em calçados</a></li>
+                    <li><a href="#">Promoções em roupas</a></li>
+                    <li><a href="#">Ofertas em acessórios</a></li>
+                </ul>
+            </li>
         </ul>
     </nav>
-
     <main class="main-content">
-        <section class="destaque">
-            <h1>SEÇÃO NOVIDADES</h1>
-            <p>Descubra as novidades da temporada</p>
+        <section class="novidades">
+            <div class="banner-container">
+                <img src="img/img.jpg" alt="Banner de Novidades" class="banner-imagem">
+            </div>
         </section>
-
         <section class="categorias">
-            <h2>Categorias em Destaque</h2>
             <div class="categorias-grid">
-                <div class="categoria-item">Calçados</div>
-                <div class="categoria-item">Roupas</div>
-                <div class="categoria-item">Acessórios</div>
-                <div class="categoria-item">Esportivos</div>
+                <div class="categoria-item">
+                    <img src="img/cat1.webp" alt="Cat1" class="categoria-imagem">
+                </div>
+                <div class="categoria-item">
+                    <img src="img/cat2.webp" alt="Cat2" class="categoria-imagem">
+                </div>
+                <div class="categoria-item">
+                    <img src="img/cat3.webp" alt="Cat3" class="categoria-imagem">
+                </div>
+                <div class="categoria-item">
+                    <img src="img/cat4.webp" alt="Cat4" class="categoria-imagem">
+                </div>
             </div>
         </section>
-
-        <section class="produtos">
-            <h2>Lançamentos</h2>
-            <div class="produtos-grid">
-                <div class="produto-card">
-                    <div class="produto-imagem"></div>
-                    <h3>Nome do Produto</h3><br>
-                    <div class="produto-preco">R$ 299,90</div>
-                    <div class="produto-parcelado">ou 10x de R$ 29,99</div><br>
-                    <button>Adicionar ao Carrinho</button>
+        <section class="categorias">
+            <div class="categorias-grid">
+                <div class="categoria-item">
+                    <img src="img/promo1.webp" alt="Promo1" class="categoria-imagem">
                 </div>
-                <div class="produto-card">
-                    <div class="produto-imagem"></div>
-                    <h3>Nome do Produto</h3><br>
-                    <div class="produto-preco">R$ 299,90</div>
-                    <div class="produto-parcelado">ou 10x de R$ 29,99</div><br>
-                    <button>Adicionar ao Carrinho</button>
-                </div>
-                <div class="produto-card">
-                    <div class="produto-imagem"></div>
-                    <h3>Nome do Produto</h3><br>
-                    <div class="produto-preco">R$ 299,90</div>
-                    <div class="produto-parcelado">ou 10x de R$ 29,99</div><br>
-                    <button>Adicionar ao Carrinho</button>
-                </div>
-                <div class="produto-card">
-                    <div class="produto-imagem"></div>
-                    <h3>Nome do Produto</h3><br>
-                    <div class="produto-preco">R$ 299,90</div>
-                    <div class="produto-parcelado">ou 10x de R$ 29,99</div><br>
-                    <button>Adicionar ao Carrinho</button>
+                <div class="categoria-item">
+                    <img src="img/promo2.webp" alt="Promo2" class="categoria-imagem">
                 </div>
             </div>
-            <br><br><br>
-            <h2>Mais comprados</h2>
-            <div class="produtos-grid">
-                <div class="produto-card">
-                    <div class="produto-imagem"></div>
-                    <h3>Nome do Produto</h3><br>
-                    <div class="produto-preco">R$ 299,90</div>
-                    <div class="produto-parcelado">ou 10x de R$ 29,99</div><br>
-                    <button>Adicionar ao Carrinho</button>
+        </section>
+        <section class="produtos">
+            <br><br>
+            <div class="titulo-produtos">Lançamentos</div>
+            <div class="slider-container">
+                <div class="slider-wrapper">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <div class="slider">
+                        <div class="slide">
+                            <!-- Primeiro grupo de produtos -->
+                            <div class="produto-card">
+                                <img src="img/lanc5.webp" alt="Produto 1" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Campo Adidas F50 Club Unissex - Preto+Vermelho</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 80%;">★★★★★</div>
+                                    <span class="rating-count">(20)</span>
+                                </div>
+                                <div class="produto-preco">R$ 404,99</div>
+                                <div class="produto-parcelado">ou 6x de R$ 75,00</div>
+                            </div>
+                            <div class="produto-card">
+                                <img src="img/lanc6.webp" alt="Produto 2" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Campo Adidas F50 Club Unissex - Branco+Rosa</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 90%;">★★★★★</div>
+                                    <span class="rating-count">(32)</span>
+                                </div>
+                                <div class="produto-preco">R$ 404,99</div>
+                                <div class="produto-parcelado">ou 6x de R$ 75,00</div>
+                            </div>
+                            <div class="produto-card">
+                                <img src="img/lanc7.webp" alt="Produto 3" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Futsal Adidas Predator Club Unissex - Verde+Preto</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 80%;">★★★★★</div>
+                                    <span class="rating-count">(25)</span>
+                                </div>
+                                <div class="produto-preco">R$ 404,99</div>
+                                <div class="produto-parcelado">ou 6x de R$ 75,00</div>
+                            </div>
+                            
+                            <div class="produto-card">
+                                <img src="img/lanc8.webp" alt="Produto 3" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Society Infantil Adidas Pred Artilheira 25 - Vermelho+Branco</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 80%;">★★★★★</div>
+                                    <span class="rating-count">(10)</span>
+                                </div>
+                                <div class="produto-preco">R$ 251,99</div>
+                                <div class="produto-parcelado">ou 4x de R$ 70,00</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <!-- Segundo grupo de produtos -->
+                            <div class="produto-card">
+                                <img src="img/lanc2.webp" alt="Produto 5" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Society Adidas Predator League Lin Unissex - Preto+Vermelho</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 80%;">★★★★★</div>
+                                    <span class="rating-count">(35)</span>
+                                </div>
+                                <div class="produto-preco">R$ 539,99</div>
+                                <div class="produto-parcelado">ou 8x de R$ 75,00</div>
+                            </div>
+                            <div class="produto-card">
+                                <img src="img/lanc3.webp" alt="Produto 6" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Campo Adidas Copa Pure III Club Unissex - Preto+Vermelho</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 80%;">★★★★★</div>
+                                    <span class="rating-count">(27)</span>
+                                </div>
+                                <div class="produto-preco">R$ 404,99</div>
+                                <div class="produto-parcelado">ou 6x de R$ 75,00</div>
+                            </div>
+                            <div class="produto-card">
+                                <img src="img/lanc1.webp" alt="Produto 3" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Futsal Adidas Predator League Unissex - Verde+Preto</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 80%;">★★★★★</div>
+                                    <span class="rating-count">(15)</span>
+                                </div>
+                                <div class="produto-preco">R$ 539,99</div>
+                                <div class="produto-parcelado">ou 8x de R$ 75,00</div>
+                            </div>               
+                        </div>
+                    </div>
                 </div>
-                <div class="produto-card">
-                    <div class="produto-imagem"></div>
-                    <h3>Nome do Produto</h3><br>
-                    <div class="produto-preco">R$ 299,90</div>
-                    <div class="produto-parcelado">ou 10x de R$ 29,99</div><br>
-                    <button>Adicionar ao Carrinho</button>
+                <div class="slider-controls">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
                 </div>
-                <div class="produto-card">
-                    <div class="produto-imagem"></div>
-                    <h3>Nome do Produto</h3><br>
-                    <div class="produto-preco">R$ 299,90</div>
-                    <div class="produto-parcelado">ou 10x de R$ 29,99</div><br>
-                    <button>Adicionar ao Carrinho</button>
+            </div>
+        </section>
+        <section class="produtos">
+            <div class="titulo-produtos">Mais vistos</div>
+            <div class="slider-container">
+                <div class="slider-wrapper">
+                    <input type="radio" name="slider-maisvistos" id="slide3" checked>
+                    <input type="radio" name="slider-maisvistos" id="slide4">
+                    <div class="slider">
+                        <div class="slide">
+                            <div class="produto-card">
+                                <img src="img/lanc5.webp" alt="Produto 1" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Campo Adidas F50 Club Unissex - Preto+Vermelho</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 100%;">★★★★★</div>
+                                    <span class="rating-count">(20)</span>
+                                </div>
+                                <div class="produto-preco">R$ 404,99</div>
+                                <div class="produto-parcelado">ou 6x de R$ 75,00</div>
+                            </div>
+                            <div class="produto-card">
+                                <img src="img/lanc6.webp" alt="Produto 2" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Campo Adidas F50 Club Unissex - Branco+Rosa</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 100%;">★★★★★</div>
+                                    <span class="rating-count">(32)</span>
+                                </div>
+                                <div class="produto-preco">R$ 404,99</div>
+                                <div class="produto-parcelado">ou 6x de R$ 75,00</div>
+                            </div>
+                            <div class="produto-card">
+                                <img src="img/lanc7.webp" alt="Produto 3" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Futsal Adidas Predator Club Unissex - Verde+Preto</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 100%;">★★★★★</div>
+                                    <span class="rating-count">(25)</span>
+                                </div>
+                                <div class="produto-preco">R$ 404,99</div>
+                                <div class="produto-parcelado">ou 6x de R$ 75,00</div>
+                            </div>
+                            
+                            <div class="produto-card">
+                                <img src="img/lanc8.webp" alt="Produto 3" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Society Infantil Adidas Pred Artilheira 25 - Vermelho+Branco</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 100%;">★★★★★</div>
+                                    <span class="rating-count">(10)</span>
+                                </div>
+                                <div class="produto-preco">R$ 251,99</div>
+                                <div class="produto-parcelado">ou 4x de R$ 70,00</div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="produto-card">
+                                <img src="img/lanc5.webp" alt="Produto 1" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Campo Adidas F50 Club Unissex - Preto+Vermelho</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 100%;">★★★★★</div>
+                                    <span class="rating-count">(20)</span>
+                                </div>
+                                <div class="produto-preco">R$ 404,99</div>
+                                <div class="produto-parcelado">ou 6x de R$ 75,00</div>
+                            </div>
+                            <div class="produto-card">
+                                <img src="img/lanc6.webp" alt="Produto 2" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Campo Adidas F50 Club Unissex - Branco+Rosa</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 100%;">★★★★★</div>
+                                    <span class="rating-count">(32)</span>
+                                </div>
+                                <div class="produto-preco">R$ 404,99</div>
+                                <div class="produto-parcelado">ou 6x de R$ 75,00</div>
+                            </div>
+                            <div class="produto-card">
+                                <img src="img/lanc7.webp" alt="Produto 3" class="produto-imagem">
+                                <div class="produto-nome">Chuteira Futsal Adidas Predator Club Unissex - Verde+Preto</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 100%;">★★★★★</div>
+                                    <span class="rating-count">(25)</span>
+                                </div>
+                                <div class="produto-preco">R$ 404,99</div>
+                                <div class="produto-parcelado">ou 6x de R$ 75,00</div>
+                            </div>  
+                            <div class="produto-card">
+                                <img src="img/cam1.jpg" alt="Produto 15" class="produto-imagem">
+                                <div class="produto-nome">Camisa Internacional Edição Edenilsoooooon 41 anos</div>
+                                <div class="rating-container">
+                                    <div class="stars-empty">★★★★★</div>
+                                    <div class="stars-filled" style="width: 100%;">★★★★★</div>
+                                    <span class="rating-count">(41)</span>
+                                </div>
+                                <div class="produto-preco">R$ 41,41</div>
+                                <div class="produto-parcelado">ou 41x de R$ 0,41</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="produto-card">
-                    <div class="produto-imagem"></div>
-                    <h3>Nome do Produto</h3><br>
-                    <div class="produto-preco">R$ 299,90</div>
-                    <div class="produto-parcelado">ou 10x de R$ 29,99</div><br>
-                    <button>Adicionar ao Carrinho</button>
+                <div class="slider-controls">
+                    <label for="slide3"></label>
+                    <label for="slide4"></label>
                 </div>
             </div>
         </section>
     </main>
-
     <footer class="footer">
         <div class="footer-grid">
             <div class="footer-section">

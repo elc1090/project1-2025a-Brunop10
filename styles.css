@@ -137,7 +137,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: -50%; /* Ajuste para trazer o menu mais para a esquerda */
+    left: -50%; 
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.748);
     list-style: none;
@@ -162,84 +162,10 @@
     background-color: #f0f0f0;
 }
 
-/* Exibir o menu suspenso ao passar o mouse sobre o item do ícone */
 .icon-item:hover .dropdown-menu {
     display: block;
 }
 
-/*******************************************************************/
-
-/* Destaques */
-.novidades {
-    background: #c8c0c1;
-    color: white;
-    margin-bottom: 20px;
-    padding: 5px;
-    border-radius: 12px;
-}
-
-.banner-container {
-    width: 60%;
-    height: 2%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 12px;
-}
-
-.banner-imagem {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-/*******************************************************************/
-
-/* Categorias */
-.categorias {
-    text-align: center;
-    margin: 0px 0;
-}
-
-.categorias h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #000000;
-}
-
-.categorias-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Ajuste de 4 colunas */
-    gap: 30px;
-    padding: 20px 20px;
-    
-}
-
-.categoria-item {
-    background-color: #f8f8f8;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    display: flex;
-    flex-direction: column;
-}
-
-.categoria-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Garante que a imagem ocupe toda a área disponível sem distorcer */
-    flex-grow: 1; /* Faz a imagem crescer para ocupar todo o espaço */
-}
-
-.categoria-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-}
-
-.categoria-item:hover img {
-    transform: scale(1.0);
-    transition: transform 0.3s ease;
-}
 /*******************************************************************/
 
 /* Navegação */
@@ -288,24 +214,92 @@
     background-color: #7f0011;
 }
 
-/* Exibir submenu ao passar o mouse */
 .nav-menu .menu-item:hover .submenu {
     display: block;
 }
 
 /*******************************************************************/
 
-/* Conteúdo Principal */
-.main-content {
-    padding: 20px;
+/* Destaques */
+.destaques {
+    background: #fa1c1c;
+    color: white;
+    margin-bottom: 0px;
+    padding: 0px;
+    border-radius: 12px;
+    text-align: center;
 }
 
-.destaque {
-    background: #f5f5f5;
-    padding: 40px 20px;
-    text-align: center;
-    margin-bottom: 30px;
+.destaque-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.destaque-imagem {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/*******************************************************************/
+
+/* Categorias */
+.categorias {
+    text-align: center;
+    margin: 0px 0;
+}
+
+.categorias h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.categorias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    gap: 30px;
+    padding: 20px 20px;
+    
+}
+
+.categoria-item {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    flex-grow: 1; 
+}
+
+.categoria-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.categoria-item:hover img {
+    transform: scale(1.0);
+    transition: transform 0.3s ease;
+}
+/*******************************************************************/
+
+/* Conteúdo Principal */
+.main-content {
+    padding: 30px;
+}
+
 /*******************************************************************/
 
 /* Produtos */
@@ -404,7 +398,7 @@
     position: relative;
     overflow: hidden;
     width: 100%;
-    margin: 10px 0px;
+    margin: 0px 0px;
 }
 
 .slider-wrapper {
@@ -448,6 +442,8 @@ input[type="radio"] {
 #slide2:checked ~ .slider { transform: translateX(-100%); }
 #slide3:checked ~ .slider { transform: translateX(0); }
 #slide4:checked ~ .slider { transform: translateX(-100%); }
+#slide5:checked ~ .slider { transform: translateX(0); }
+#slide6:checked ~ .slider { transform: translateX(-100%); }
 
 .slider-controls label:hover, input[type="radio"]:checked + label {
     background: #7f0011;

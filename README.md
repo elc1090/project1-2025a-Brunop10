@@ -4,7 +4,7 @@
 ![Substitua a imagem ao lado por um screenshot do seu projeto](img/giphy.gif "GIF do projeto.")
 
 
-Acesso: Substitua este texto pela URL para acesso ao site publicado
+Acesso: (https://project1-2025a-brunop.vercel.app/)
 
 
 #### Desenvolvedor(a)
